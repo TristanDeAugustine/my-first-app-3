@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 20px / 1 sans-serif;
 }
 
 html {
@@ -7,6 +7,32 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0.25;
   min-height: 100%;
+  background-color: rgb(155, 202, 218);
+  list-style:none;
+  text-align:center;
+
+}
+
+.page-title {
+  color:rgb(142, 187, 202);
+  border:3px solid black;
+  padding:2rem;
+  text-align:center;
+}
+
+li {
+
+display:flex;
+justify-content:center;
+text-align:center;
+flex-flow:column wrap;
+width: 25%;
+}
+
+.Movie {
+
+  display:flex;
+  justify-content: 
 }
